@@ -12,10 +12,24 @@ A news application with React Native.
   
 # Screenshots of the app
 
+<div align="centre">
 First Screen
-<div align="left">
-    <img src="/screenshots/FIRST_SCREEN.png" width="400px"</img> 
 </div>
+
+
+<div align="centre">
+    <img src="/screenshots/FIRST_SCREEN.png" width="300px"</img> 
+</div>
+
+<div align="centre">
+Second Screen
+</div>
+
+
+<div align="centre">
+    <img src="/screenshots/SECOND_SCREEN.png" width="300px"</img> 
+</div>
+
 
 
 
