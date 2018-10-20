@@ -7,5 +7,9 @@ A news application with React Native.
 
   - git clone url
   - npm install
+  - react-native eject
   - react-native run-android
+  
+# Screenshots of the app
+
 
