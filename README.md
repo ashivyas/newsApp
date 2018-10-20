@@ -14,11 +14,8 @@ A news application with React Native.
 
 
 <div align="center">
-<p>First Screen</p>
-</div>
-
-<div align="center">
-    <img src="/screenshots/FIRST_SCREEN.png" width="300px"</img> 
+  <p>First Screen</p>
+  <img src="/screenshots/FIRST_SCREEN.png" width="300px"</img> 
 </div>
 
 
