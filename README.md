@@ -12,4 +12,6 @@ A news application with React Native.
   
 # Screenshots of the app
 
+First Screen ![First Screen](/screenshots/FIRST_SCREEN.png?raw=true "First Screen")
+
 
