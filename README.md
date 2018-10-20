@@ -12,10 +12,10 @@ A news application with React Native.
   
 # Screenshots of the app
 
-<div align="center">
+<div align="left">
+    First Screen
     <img src="/screenshots/FIRST_SCREEN.png" width="400px"</img> 
 </div>
 
-First Screen ![First Screen](/screenshots/FIRST_SCREEN.png?raw=true "First Screen")
 
 
