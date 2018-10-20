@@ -6,7 +6,8 @@ import {
   UPDATE_QUERY,
   UPDATE_PAGE,
   UPDATE_LOADING,
-  UPDATE_PAGINATION
+  UPDATE_PAGINATION,
+  EMPTY_NEWS_LIST
 } from "./Events";
 
 import { put, call, takeEvery, all, fork, select } from "redux-saga/effects";
@@ -26,6 +27,7 @@ function* fetchNewsList(action) {
     const news = data.data.articles || [];
     yield put({ type: FETCH_NEWS_LIST, news });
   } catch (e) {
+    yield put({ type: EMPTY_NEWS_LIST });
     console.log("error", e);
   }
 }

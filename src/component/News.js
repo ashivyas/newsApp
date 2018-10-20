@@ -8,11 +8,7 @@ import {
 } from "react-native";
 import moment from "moment-timezone";
 
-<<<<<<< HEAD
-export default class News extends Component {
-=======
 export default class Feed extends Component {
->>>>>>> 8ad132c8d1744c665f79752c2c66f3b1c924ec7a
   constructor(props) {
     super(props);
   }
@@ -46,9 +42,6 @@ export default class Feed extends Component {
             key={data["id"] + "detail"}
           >
             <Left>
-              {data.author && (
-                <Text style={styles.msgStyle}>{" " + data.author}</Text>
-              )}
             </Left>
             <Body />
             <Right>
