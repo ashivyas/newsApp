@@ -17,6 +17,12 @@ export default class HeaderCompoent extends Component {
     this.props.updateSource(value, 1);
   }
 
+  onStateValueChange(value) {
+    this.setState({
+      selected: value
+    });
+  }
+
   renderPickerItem() {
     return this.props.source.map((source, index) => {
       return (

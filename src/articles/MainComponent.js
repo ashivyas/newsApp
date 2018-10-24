@@ -57,6 +57,7 @@ export default class MainComponent extends Component {
                 renderItem={(item, index) => {
                   return (<News key={index} news_data={item.item} />)
                 }}
+                numColumns={1}
               />
              : 
             <NoFeed message="Fetching data..." /> 
